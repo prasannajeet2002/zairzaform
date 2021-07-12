@@ -1,0 +1,56 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+ /* body{
+    /* display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items:center; */
+    
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* height: 90vh; */
+    max-width: 700px;
+    width: 100%;
+    padding:2rem 5rem;
+    margin: auto;
+    border:2px solid black;
+    border-radius:6px;
+    background-color: aqua;
+}
+.title{
+    font-size:2rem;
+    text-align: center;
+    text-transform:uppercase;
+    /* height:10vh; */
+    padding-bottom: 3rem;
+}
+.input-box{
+    padding:3px 0px;
+}
+ .input-box input{
+     width:500px;
+     border:2px solid black;
+     border-radius:3px;
+ }
+ .wings{
+     display:flex;
+     justify-content:space-evenly;
+ }
+ .domain{
+     font-size: 1.5rem;
+     text-transform: capitalize;
+ }
+ .skills{
+     display:flex;
+ }
+ .skills label{
+     padding:2px 5px;
+ }
+ .button input{
+     text-transform: capitalize;
+     font-size:1.2rem;
+ }
